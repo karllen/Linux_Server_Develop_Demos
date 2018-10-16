@@ -1,0 +1,1 @@
+//Item 20:Use std::weak_ptr for std::shared_ptr-like pointers that can dangle.

@@ -1,0 +1,1 @@
+Item 22:When using the Pimpl Idiom, define special member functions in the implementation file.
