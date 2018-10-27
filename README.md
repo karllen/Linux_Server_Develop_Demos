@@ -1,2 +1,2 @@
 # Samples
-some samples I used
+some samples I learned and used
