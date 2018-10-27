@@ -1,6 +1,4 @@
 #include "LF_ThreadPool.h"
-#include <iostream>
-
 
 namespace alsus
 {
@@ -74,7 +72,7 @@ namespace alsus
 			PromoteNewLeader();
 
 			//process handle event
-			PorcessTask(task);
+			ProcessTask(task);
 		}
 
 	}
@@ -98,7 +96,7 @@ namespace alsus
 		_new_leader = false;
 	}
 
-	void LF_ThreadPool::PorcessTask(const Task &task)
+	void LF_ThreadPool::ProcessTask(const Task &task)
 	{
 		if (task)
 		{

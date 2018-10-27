@@ -31,7 +31,7 @@ namespace alsus
 		void ThreadRun();
 		void PromoteNewLeader();
 		void TryToLeader();
-		void PorcessTask(const Task &task);
+		void ProcessTask(const Task &task);
 	private:
 		bool _running;
 		std::mutex _leader_mtx;
