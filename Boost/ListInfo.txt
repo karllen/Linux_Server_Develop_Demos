@@ -1,0 +1,1 @@
+1、boost function imp  去掉宏的早期版本实现
